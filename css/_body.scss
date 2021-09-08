@@ -1,0 +1,99 @@
+
+body {
+    background-color: yellow;
+    
+
+}
+
+.col-sm-12, .col-lg-12 {
+    padding: 0%;
+    margin: 0%;
+}
+
+.row {
+    padding: 0%;
+    margin: 0%;
+}
+
+.container-fluid {
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+.section__Padding {
+    padding: 50px 50px;
+    
+}
+
+@mixin justify--center {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.justify-center {
+    @include justify--center;
+}
+
+@mixin  margin-top {
+    margin-top: 20px;
+}
+
+.MT {
+    @include margin-top;
+}
+
+.justifyR-center {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+@keyframes moverelementoIzquierda {
+    0% {transform: translateX(-900px);}
+    100%{transform: translateX(0px);}
+}
+.moverelementoIzq {
+    animation-name: moverelementoIzquierda;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-iteration-count: initial;
+    animation-timing-function: ease-out;
+}
+
+@keyframes moverelementoDerecha {
+    0% {transform: translateX(900px);}
+    100%{transform: translateX(0px);}
+}
+
+.moverelementoDer {
+    animation-name: moverelementoDerecha;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-iteration-count: initial;
+    animation-timing-function: ease-out;
+}
+
+@keyframes dropDown {
+    0% {transform: translateY(-900px);
+        opacity: 0%;}
+    80% {opacity: 0%;}
+    100%{transform: translateY(0px);
+        opacity: 50%;}
+}
+
+.d-Down {
+    animation-name: dropDown;
+    animation-duration: 1.5s;
+    animation-delay: 0s;
+    animation-iteration-count: initial;
+    animation-timing-function: ease-out;
+}
+
+.imghover{
+    transition: transform 1s;
+}
+ .imghover:hover {
+        transform: scale(1.1,1.1);
+ }

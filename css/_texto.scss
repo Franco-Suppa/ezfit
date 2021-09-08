@@ -1,0 +1,52 @@
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+}
+
+.title {
+    text-align: center;
+}
+
+@mixin p-estilo {
+    font-family: 'Coda', cursive;
+    color: black;
+    line-height: 35px;
+    text-align: left;
+    font-weight: bold;
+    padding: 10px;
+  
+}
+
+.parrafo__Estilo {
+    @include p-estilo;
+}
+
+.rojo {
+    color: red;
+    text-align: center;
+    
+}
+
+footer p {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+
+@mixin estilo-contenedor {
+    background-image: linear-gradient(yellow, orange);
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom,orange,yellow) 1 100%;
+    
+}
+
+.contenedorP {
+    @include estilo-contenedor;
+        }
+
+h3 {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 0px 25px;
+}
+

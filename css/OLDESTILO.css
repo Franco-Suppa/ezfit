@@ -1,0 +1,101 @@
+
+/*CSS GENERAL*/
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+/*CSS ENTRENAMIENTO*/
+
+
+
+#rutina1 {
+    color: yellow;
+    border-color: orange;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    background-color: orangered;
+}
+
+.rutina {
+    list-style: upper-roman;
+}
+
+/*CSS CALCULADORA*/
+
+.calculadora {
+    background-color: red;
+    height: 500px;
+    width: 30%;
+    border-radius: 5%;
+}
+
+
+
+.formularioContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formItem {
+    margin: 10px 0px 10px 0px;
+}
+.bannerContact {
+    grid-area: banner3;
+    height: 150px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.sectCalc {
+    grid-area: sectCalc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.containerDieta {
+    grid-area: containerDieta;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.sectionVideo {
+    grid-area: sectionvideo;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.video {
+    margin-right: 150px;
+    margin-top: 70px;
+
+}
+.navFlex {
+    display: flex;
+    flex-direction: row;
+    
+}
