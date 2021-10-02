@@ -7,6 +7,11 @@ h1 {
     text-align: center;
 }
 
+strong {
+    font-style: italic;
+    color: darkred;
+}
+
 @mixin p-estilo {
     font-family: 'Coda', cursive;
     color: black;

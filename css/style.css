@@ -72,6 +72,11 @@ h1 {
   text-align: center;
 }
 
+strong {
+  font-style: italic;
+  color: darkred;
+}
+
 .parrafo__Estilo {
   font-family: 'Coda', cursive;
   color: black;
@@ -337,18 +342,8 @@ body {
           transform: scale(1.1, 1.1);
 }
 
-footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(yellow), to(orange));
-  background-image: linear-gradient(yellow, orange);
+.logo {
+  padding: 10px;
 }
 
 .banner__Height {
